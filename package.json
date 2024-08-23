@@ -1,0 +1,30 @@
+{
+  "name": "nakamura-check",
+  "version": "1.0.0",
+  "description": "A GitHub Action to check product availability and send email notifications",
+  "main": "src/check.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node src/check.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "github-action",
+    "product-availability",
+    "email-notification"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.4",
+    "jsdom": "^24.1.1",
+    "nodemailer": "^6.6.0",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^21.1.7",
+    "@types/node": "^22.5.0",
+    "@types/nodemailer": "^6.4.15",
+    "typescript": "^5.5.4"
+  }
+}
